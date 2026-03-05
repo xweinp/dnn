@@ -1,0 +1,19 @@
+[project]
+name = "dnn-hw2"
+version = "0.1.0"
+description = "DNN Homework 2"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python",
+    "matplotlib",
+    "numpy",
+    "pillow",
+    "scipy",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "pandas",
+    "jupyter",
+    "segment-anything @ git+https://github.com/facebookresearch/segment-anything.git"
+]
