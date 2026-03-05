@@ -1,0 +1,13 @@
+[project]
+name = "dnn-hw4"
+version = "0.1.0"
+description = "DNN Homework 4"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "ipykernel",
+    "torch",
+    "gymnasium[box2d]",
+]
